@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@1&display=swap');
+*{
+  font-family: 'Castoro', serif;}
+.footer-basic {
+  padding:40px 0;
+  background-color:#ffffff;
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+.relax{
+  height: 60%;
+  padding: 4%;
+  background-image: url(https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80);
+  background-size: auto;
+  background-repeat: no-repeat;
+  box-shadow:inset 0 0 0 2000px rgba(54, 54, 56, 0.472)
+
+}
+.text{
+  color:#f5f50c;
+  font-size:1.2em;
+}
+/*.gallery {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 15px;
+}
+.gallery__img {
+  width: 10%;
+  height: 10%;
+  object-fit: 10%;
+}
+.gallery__item--1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}*/
+table {
+  border-collapse: collapse;
+  background: white;
+  color: black;
+}
+th, td { 
+  font-weight: bold;
+}
+.container{
+  background-image: url(https://images.unsplash.com/photo-1478737270239-2f02b77fc618?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bXVzaWMlMjBzdHVkaW98ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+ 
+  background-size:cover;
+
+
+}
