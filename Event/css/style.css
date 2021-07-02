@@ -91,6 +91,17 @@
   grid-row-start: 1;
   grid-row-end: 3;
 }*/
+
+.gallery figure{
+  width:18%;
+}
+
+
+.gallery img{
+  width:100%;
+}
+
+
 table {
   border-collapse: collapse;
   background: white;
@@ -99,10 +110,17 @@ table {
 th, td { 
   font-weight: bold;
 }
-.container{
+.top{
   background-image: url(https://images.unsplash.com/photo-1478737270239-2f02b77fc618?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bXVzaWMlMjBzdHVkaW98ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
  
   background-size:cover;
 
+  background-repeat: no-repeat;
 
+
+}
+
+
+.top{
+  height:55vh;
 }
